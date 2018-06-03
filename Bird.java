@@ -1,5 +1,6 @@
-class Bird extends Animal {
-	void fly() {
-		System.out.println("I am flying");
+class Bird extends Animal implements Walkable {
+	@Override
+	public void walk() {
+		System.out.println("I am walking");
 	}
 }
